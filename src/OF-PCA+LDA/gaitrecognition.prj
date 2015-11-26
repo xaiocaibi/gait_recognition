@@ -1,0 +1,147 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="2274616494" file="E:\步态识别研究\我的成果\实验代码\OF-PCA+LDA\gaitrecognition.prj" location="E:\步态识别研究\我的成果\实验代码\OF-PCA+LDA" name="gaitrecognition" preferred-package-location="E:\步态识别研究\我的成果\实验代码\OF-PCA+LDA\gaitrecognition\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="MATLAB Compiler for Standalone Applications">
+    <param.appname>gaitrecognition</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Jimmy</param.authnamewatermark>
+    <param.email>1212@fd.com</param.email>
+    <param.company>fd</param.company>
+    <param.summary>fdfd</param.summary>
+    <param.description>fds</param.description>
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\fd\gaitrecognition\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\gaitrecognition\for_testing</param.intermediate>
+    <param.output>${PROJECT_ROOT}\gaitrecognition\for_redistribution</param.output>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.server.ctf>${PROJECT_ROOT}\gaitrecognition\for_testing\.ctf</param.server.ctf>
+    <param.server.readme>${PROJECT_ROOT}\gaitrecognition\for_testing\readme.txt</param.server.readme>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.output />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.server.ctf />
+      <param.server.readme />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\OFMain.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\AverageCellToMatrix.m</file>
+      <file>${PROJECT_ROOT}\CellAlignToAverageVector.m</file>
+      <file>${PROJECT_ROOT}\CellDimensionAlign.m</file>
+      <file>${PROJECT_ROOT}\Center.m</file>
+      <file>${PROJECT_ROOT}\EigVector.m</file>
+      <file>${PROJECT_ROOT}\Euclidean.m</file>
+      <file>${PROJECT_ROOT}\LDA.m</file>
+      <file>${PROJECT_ROOT}\OFReadpic.m</file>
+      <file>${PROJECT_ROOT}\OFSymmetry.m</file>
+      <file>${PROJECT_ROOT}\OpticalFlow.m</file>
+      <file>${PROJECT_ROOT}\PCA.m</file>
+      <file>${PROJECT_ROOT}\PcaPlusLda.m</file>
+      <file>${PROJECT_ROOT}\Recognition.m</file>
+    </fileset.resources>
+    <fileset.package>
+      <file>${PROJECT_ROOT}\AverageCellToMatrix.m</file>
+      <file>${PROJECT_ROOT}\CellAlignToAverageVector.m</file>
+      <file>${PROJECT_ROOT}\CellDimensionAlign.m</file>
+      <file>${PROJECT_ROOT}\Center.m</file>
+      <file>${PROJECT_ROOT}\EigVector.m</file>
+      <file>${PROJECT_ROOT}\Euclidean.m</file>
+      <file>${PROJECT_ROOT}\LDA.m</file>
+      <file>${PROJECT_ROOT}\OFMain.m</file>
+      <file>${PROJECT_ROOT}\OFReadpic.m</file>
+      <file>${PROJECT_ROOT}\OFSymmetry.m</file>
+      <file>${PROJECT_ROOT}\OpticalFlow.m</file>
+      <file>${PROJECT_ROOT}\PCA.m</file>
+      <file>${PROJECT_ROOT}\PcaPlusLda.m</file>
+      <file>${PROJECT_ROOT}\Recognition.m</file>
+    </fileset.package>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\gaitrecognition\for_testing" name="gaitrecognition.exe" optional="false">E:\步态识别研究\我的成果\实验代码\OF-PCA+LDA\gaitrecognition\for_testing\gaitrecognition.exe</file>
+      <file location="${PROJECT_ROOT}\gaitrecognition\for_testing" name="readme.txt" optional="true">E:\步态识别研究\我的成果\实验代码\OF-PCA+LDA\gaitrecognition\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\gaitrecognition\for_testing" name="splash.png" optional="false">E:\步态识别研究\我的成果\实验代码\OF-PCA+LDA\gaitrecognition\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Program Files\MATLAB\R2014a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>true</os32>
+      <os64>false</os64>
+      <arch>win32</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
