@@ -6,6 +6,6 @@ As a behavioral biometric, gait recognition has gained an increased interest in 
 This project is mainly programmed by Luo Zhengping, also named as Jimmy Lo, especially with the help of Li lin, also my teammate Wang Kaijie and Chen lin. Both of us we got a lot of beautiful points and help from our honorable tutor Prof.Yang, and personally I want to thank my two best friends Liu Yanjun and Deng Qi for their kindness and precious friendship. All the rights are reserved. If you have any confusion, please contact me from [HERE](https://github.com/Jimmy-Lo/gait_recognition/wiki/Contact-me).
 
 
-You can download our published paper to look for details [Gait optical flow image decomposition for human recognition](http://ieeexplore.ieee.org/document/7560427/).
+You can download our published paper to look for details [Gait optical flow image decomposition for human recognition](http://ieeexplore.ieee.org/document/7560427/). If you find this paper or the source code useful, please consider citing it. 
 
 
